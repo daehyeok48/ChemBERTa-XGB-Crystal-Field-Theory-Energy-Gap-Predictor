@@ -15,37 +15,37 @@ A full pipeline for predicting molecular Energy Gap using a hybrid feature model
 
 ## Project Structure
 CFT_Energy_predictor/  
-│  
-├── app/  
-│   └── app.py  
-│  
-├── execute/  
-│   ├── train.py  
-│   └── infer.py  
-│  
-├── src/  
-│   ├── encoder.py  
-│   ├── fingerprints.py  
-│   ├── augment.py  
-│   ├── features.py  
-│   ├── model.py  
-│   ├── predict.py  
-│   ├── visualize.py  
-│   └── utils.py  
-│  
-├── models/  
-│   ├── chemberta/  
-│   ├── scaler.pkl  
-│   └── chemberta_trained.pkl  
-│  
-├── data/  
-│   └── smiles_dataset.csv  
-│  
-├── molecule_images/  
-│  
-├── environment.yml  
-│  
-└── README.md  
+ │  
+ ├── app/  
+ │   └── app.py  
+ │  
+ ├── execute/  
+ │   ├── train.py  
+ │   └── infer.py  
+ │  
+ ├── src/  
+ │   ├── encoder.py  
+ │   ├── fingerprints.py  
+ │   ├── augment.py  
+ │   ├── features.py  
+ │   ├── model.py  
+ │   ├── predict.py  
+ │   ├── visualize.py  
+ │   └── utils.py  
+ │  
+ ├── models/  
+ │   ├── chemberta/  
+ │   ├── scaler.pkl  
+ │   └── chemberta_trained.pkl  
+ │  
+ ├── data/  
+ │   └── smiles_dataset.csv  
+ │  
+ ├── molecule_images/  
+ │  
+ ├── environment.yml  
+ │  
+ └── README.md  
 
 ## Setup
 Require conda environment in your local setting  
@@ -78,5 +78,5 @@ Output:
 
 ## Acknowledgement
 This project is for EF2039 Term project 1 assignment.  
-ChemBERTa source are retrieved from Chithrananda, S., Grand, G., & Ramsundar, B. (2020). ChemBERTa: Large-Scale Self-Supervised Pretraining for Molecular Property Prediction. ArXiv, abs/2010.09885.
+ChemBERTa source are retrieved from Chithrananda, S., Grand, G., & Ramsundar, B. (2020). ChemBERTa: Large-Scale Self-Supervised Pretraining for Molecular Property Prediction. ArXiv, abs/2010.09885.  
 Author Hugging Face: https://huggingface.co/seyonec/ChemBERTa-zinc-base-v1/
