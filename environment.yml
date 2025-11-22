@@ -1,0 +1,16 @@
+name: CFT_Energy_predictor
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - numpy
+  - pandas
+  - scikit-learn
+  - rdkit
+  - joblib
+  - pip
+  - pip:
+      - transformers
+      - torch
+      - xgboost
