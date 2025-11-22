@@ -43,7 +43,7 @@ CFT_Energy_predictor/
 │  
 ├── molecule_images/  
 │  
-├── environment.yml  x
+├── environment.yml  
 │  
 └── README.md  
 
