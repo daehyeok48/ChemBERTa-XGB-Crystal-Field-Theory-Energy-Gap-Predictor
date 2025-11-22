@@ -79,4 +79,4 @@ Output:
 ## Acknowledgement
 This project is for EF2039 Term project 1 assignment.  
 ChemBERTa source are retrieved from Chithrananda, S., Grand, G., & Ramsundar, B. (2020). ChemBERTa: Large-Scale Self-Supervised Pretraining for Molecular Property Prediction. ArXiv, abs/2010.09885.  
-Author Hugging Face: https://huggingface.co/seyonec/ChemBERTa-zinc-base-v1/
+Hugging Face: https://huggingface.co/seyonec/ChemBERTa-zinc-base-v1/
