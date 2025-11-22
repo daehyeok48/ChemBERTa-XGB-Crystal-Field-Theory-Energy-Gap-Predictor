@@ -11,7 +11,7 @@ A full pipeline for predicting molecular Energy Gap using a hybrid feature model
 - XGBoost regression  
 - K-Fold cross-validation  
 - SMILES augmentation  
-- Molecule 2D PNG generation  
+- Molecule 2D .png generation  
 
 ## Project Structure
 CFT_Energy_predictor/  
